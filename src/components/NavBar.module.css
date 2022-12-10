@@ -19,3 +19,9 @@
     font-size: 105%;
 }
 
+@media only screen and (min-width: 600px) {
+    .navBar {
+      display: none;
+    }
+  }
+

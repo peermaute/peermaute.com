@@ -3,11 +3,9 @@ import styles from "./NavBar.module.css";
 const NavBar = () => {
     return(
         <nav className={styles.navBar}>
-            <a href="#cooking">Cooking</a>
+            <a href="#cooking">Music</a>
             <p> | </p>
-            <a href="#music">Music</a>
-            <p> | </p>
-            <a href="#sports">Sports</a>
+            <a href="#music">Cooking</a>
             <p> | </p>
             <a href="#socialLink">Links</a>
         </nav>
