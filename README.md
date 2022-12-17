@@ -1,3 +1,3 @@
 # peermaute.com
-So this is the code to my personal website written in React. Feel free to poke around.
+So this is the code to my [personal website](https://peermaute.com/) written in React. Feel free to poke around.
 
