@@ -1,18 +1,17 @@
-import logo from './gearLogo.svg';
-import './App.css';
+import styles from "./App.module.css";
+import NavBar from './components/NavBar';
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Under construction
-        </p>
-      </header>
-      <footer>
-        
-      </footer>
+    <div className={styles.app}>
+      <NavBar/>
+      <Header/>
+      <Body/>
+      <Footer/>
     </div>
   );
 }

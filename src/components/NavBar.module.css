@@ -1,0 +1,27 @@
+.navBar{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.navBar>p{
+    margin: 0;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+.navBar>a{
+    text-decoration: none;
+    color: rgb(102, 99, 99);
+}
+
+.navBar>a:hover{
+    color: black;
+    font-size: 105%;
+}
+
+@media only screen and (min-width: 600px) {
+    .navBar {
+      display: none;
+    }
+  }
+

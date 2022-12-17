@@ -1,0 +1,22 @@
+.footer{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    font-size: 2rem;
+    margin: .7rem;
+    color: #3c3f3e;
+}
+
+#githubIcon:hover{
+    color: black;
+}
+
+#linkedinIcon:hover{
+    color: #0072b1;
+}
+
+#mailIcon:hover{
+    color: #d3bd40;
+}
