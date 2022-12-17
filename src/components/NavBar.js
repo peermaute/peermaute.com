@@ -7,6 +7,8 @@ const NavBar = () => {
             <p> | </p>
             <a href="#music">Cooking</a>
             <p> | </p>
+            <a href="#cooking">Projects</a>
+            <p> | </p>
             <a href="#socialLink">Links</a>
         </nav>
     );

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <hr id={styles.topHr}></hr>
-      <header>
+      <header className={styles.headElement}>
         <section className={styles.headerText}>
           <h1 className={styles.title}>Congrats, you found my website!</h1>
           <img id={styles.headerImageMiddle} src={profilPic} alt="Peer" />
@@ -14,9 +14,7 @@ const Header = () => {
           </p>
         </section>
         <img id={styles.headerImageRight} src={profilPic} alt="Peer" />
-        
       </header>
-      <hr></hr>
     </div>
   );
 };
