@@ -2,6 +2,7 @@ import styles from "./Body.module.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import Project from "./Project";
 
 const Body = () => {
   return (
@@ -55,8 +56,12 @@ const Body = () => {
         </a>
       </section>
       <hr></hr>
-      <section className={styles.sectionElement} id="projects">
-        <h1 className={styles.title}>Projects</h1>
+      <section className={styles.projectsSection} id="projects">
+        <h1 className={styles.title}>Latest Projects</h1>
+        <Project title="MealSquare API" description="Helps you with finding a meal for the ingredients in your fridge and can be used to create meal plans for the week." link="https://api.mealsquare.peermaute.com/"/>
+        <Project title="Spotify Wrapped Monthly" description="This project uses the Spotify Web API and Github Actions to create a monthly Spotify Wrapped." link="https://github.com/peermaute/Spotify_Wrapped_Monthly"/>
+        <Project title="ChordSquare" description="A Song library where you can save songs with their lyrics and chords. Additionally, you can change the key of the songs." link="https://github.com/peermaute/ChordSquare"/>
+
       </section>
     </div>
   );

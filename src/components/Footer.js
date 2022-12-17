@@ -3,7 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Footer = () => {
   return (
-    <footer id="links">
+    <footer className={styles.footer} id="links">
       <a
         className={styles.iconLink}
         href="https://github.com/peermaute"

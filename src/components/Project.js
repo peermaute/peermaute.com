@@ -1,11 +1,14 @@
 import styles from "./Project.module.css";
 
-const Project = () => {
+const Project = (props) => {
   return (
-    <div className="project">
-      <h2>Project</h2>
-    </div>
+    <a className={styles.projectLink} href={props.link}>
+      <div className={styles.project}>
+        <h3 className={styles.title}>{props.title}</h3>
+        <p className={styles.description}>{props.description}</p>
+      </div>
+    </a>
   );
-}
+};
 
 export default Project;

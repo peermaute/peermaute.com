@@ -1,0 +1,33 @@
+.projectLink{
+    text-decoration: none;
+    color: black;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: box-shadow 0.1s;
+  padding: 20px;
+  /* margin top and bottom 10px*/
+
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid rgb(231, 230, 230);
+}
+
+.project:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.title{
+    text-align: center;
+    margin: 0;
+}
+
+.description{
+    text-align: center;
+    margin: 0;
+}
+
+
