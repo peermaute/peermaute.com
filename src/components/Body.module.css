@@ -15,7 +15,7 @@
     font-size: 1.5rem;
 }
 
-#spotifyIcon{
+.icon{
     font-size: 4rem;
     margin-left: 50px;
 }
@@ -40,7 +40,11 @@
         margin-top: 0;
     }
 
-    #spotifyIcon{
+    .icon{
         margin-left: 0;
+    }
+
+    #cookingIcon{
+        margin: 30px;
     }
 }
