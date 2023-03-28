@@ -12,10 +12,11 @@
   margin: 10px 0;
   border-radius: 10px;
   border: 1px solid rgb(231, 230, 230);
+  box-shadow: 0 0 11px rgba(154, 152, 152, 0.2); 
 }
 
 .project:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 11px rgba(13, 13, 13, 0.2); 
 }
 
 .title{
