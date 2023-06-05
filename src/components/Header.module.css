@@ -22,7 +22,8 @@
 #headerImageRight{
     margin-left: 30px;
     height: 120px;
-    border-radius: 7px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(13, 13, 13, 0.2); 
 }
 
 #headerImageMiddle{
@@ -52,7 +53,7 @@
     #headerImageMiddle{
         display: block;
         height: 120px;
-        border-radius: 7px;
+        border-radius: 5px;
         margin: auto;
     }
   }

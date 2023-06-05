@@ -58,10 +58,9 @@ const Body = () => {
       <hr></hr>
       <section className={styles.projectsSection} id="projects">
         <h1 className={styles.title}>Latest Projects</h1>
+        <Project title="Whats-The-Genre" description="Website to find the genre of any song or artist." link="https://whats-the-genre.com"/>
         <Project title="MealSquare API" description="Helps you with finding a meal for the ingredients in your fridge and can be used to create meal plans for the week." link="https://api.mealsquare.peermaute.com/"/>
         <Project title="Spotify Wrapped Monthly" description="This project uses the Spotify Web API and Github Actions to create a monthly Spotify Wrapped." link="https://github.com/peermaute/Spotify_Wrapped_Monthly"/>
-        <Project title="ChordSquare" description="A Song library where you can save songs with their lyrics and chords. Additionally, you can change the key of the songs." link="https://github.com/peermaute/ChordSquare"/>
-
       </section>
     </div>
   );
