@@ -1,21 +1,17 @@
 import styles from "./Header.module.css";
-import profilPic from "../images/me_profil_pic.jpg";
+import profilPic from "../images/tea-profile-pic.png";
 
 const Header = () => {
   return (
-    <div>
-      <hr id={styles.topHr}></hr>
-      <header className={styles.headElement}>
-        <section className={styles.headerText}>
-          <h1 className={styles.title}>Congrats, you found my website!</h1>
-          <img id={styles.headerImageMiddle} src={profilPic} alt="Peer" />
-          <p className={styles.subtitle}>
-            Hi, my name is Peer and I'm studying computer science in Hamburg.
-          </p>
-        </section>
-        <img id={styles.headerImageRight} src={profilPic} alt="Peer" />
-      </header>
-    </div>
+    <header className={styles.headElement}>
+      <img className={styles.profilePic} src={profilPic} alt="Peer" />
+      <div className={styles.textSection}>
+        <h1 className={styles.name}>Peer Maute</h1>
+        <p className={styles.tagline}>
+          Software Developer & IT Consultant at Netlight, Hamburg
+        </p>
+      </div>
+    </header>
   );
 };
 
